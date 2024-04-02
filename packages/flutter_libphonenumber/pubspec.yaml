@@ -29,12 +29,18 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_libphonenumber_android:
-    path: ../flutter_libphonenumber_android
+    git:
+      url: https://github.com/Tomison-E/flutter_libphonenumber.git
+      path: packages/flutter_libphonenumber_android
   flutter_libphonenumber_ios:
-    path: ../flutter_libphonenumber_ios
+    git:
+      url: https://github.com/Tomison-E/flutter_libphonenumber.git
+      path: packages/flutter_libphonenumber_ios
   flutter_libphonenumber_platform_interface: ^1.0.0
   flutter_libphonenumber_web:
-    path: ../flutter_libphonenumber_web
+    git:
+      url: https://github.com/Tomison-E/flutter_libphonenumber.git
+      path: packages/flutter_libphonenumber_web
 
 dev_dependencies:
   flutter_test:
