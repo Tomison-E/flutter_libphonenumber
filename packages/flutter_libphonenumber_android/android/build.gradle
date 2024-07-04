@@ -29,7 +29,7 @@ android {
         namespace("com.bottlepay.flutter_libphonenumber")
     }
 
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
